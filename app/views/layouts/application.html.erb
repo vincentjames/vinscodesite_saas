@@ -33,12 +33,18 @@
 			</ul>
 		
 		</div> <!-- /.navbar-collapse -->
-	</div> <!-- container -->
+	</div> <!-- container 1-->
 </nav>
 
 <div class="container">
+	
+	<% flash.each do |key, value| %>
+		<%= content_tag :div, value, class: "alert alert-#{key}" %>
+	<% end %>
+
 	<%= yield %>
-</div>
+
+</div> <!-- container 2 -->
 
 </body>
 </html>
