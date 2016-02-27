@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.5', '>= 3.5.6'
 # Take Credit Card payments with Stripe
 gem 'stripe', '~> 1.36.0'
-# Use Figaro to hide secret keys.
+# Use Figaro to hide secret keys.    
 gem 'figaro', '~> 1.1.1'
 
 
